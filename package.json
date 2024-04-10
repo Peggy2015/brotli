@@ -1,0 +1,24 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start":"node ./src/index.js",
+    "encode":"node ./src/encode.js",
+    "decode":"node ./src/decode.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa-static": "^5.0.0",
+    "koa2": "^2.0.0-alpha.7",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "brotli": "^1.3.3"
+  }
+}
